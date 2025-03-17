@@ -2,8 +2,18 @@ import ConstrainedBox from "@/components/core/constrained-box";
 import ResponsiveBox from "@/components/core/ResponsiveBox";
 import SectionTitle from "@/components/common/SectionTitle";
 
+// Define interface for blog post
+interface BlogPost {
+  id: number;
+  title: string;
+  excerpt: string;
+  date: string;
+  category: string;
+  readTime: string;
+}
+
 // Sample blog post data - in a real app, this would come from a database or CMS
-const blogPosts = [
+const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "Introduction to Data Science",
@@ -30,7 +40,7 @@ const blogPosts = [
   },
 ];
 
-const BlogCard = ({ post }) => {
+const BlogCard = ({ post }: { post: BlogPost }) => {
   return (
     <div className="bg-white bg-opacity-5 backdrop-blur-sm p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-gray-700">
       <div className="flex flex-col space-y-4">
