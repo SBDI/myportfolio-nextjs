@@ -1,0 +1,84 @@
+[09:46:30.999] Cloning github.com/SBDI/myportfolio-nextjs (Branch: main, Commit: 6bdcb6f)
+[09:46:31.227] Previous build caches not available
+[09:46:31.305] Cloning completed: 305.000ms
+[09:46:31.491] Running build in Washington, D.C., USA (East) – iad1
+[09:46:31.626] Running "vercel build"
+[09:46:32.009] Vercel CLI 41.3.2
+[09:46:34.386] Installing dependencies...
+[09:46:34.424] bun install v1.2.5 (013fdddc)
+[09:46:34.451] Resolving dependencies
+[09:46:35.071] Resolved, downloaded and extracted [38]
+[09:46:38.620] Saved lockfile
+[09:46:38.621] 
+[09:46:38.621] + @babel/core@7.26.0 (v7.26.10 available)
+[09:46:38.621] + @tailwindcss/typography@0.5.15 (v0.5.16 available)
+[09:46:38.621] + @types/animejs@3.1.12
+[09:46:38.621] + @types/lodash@4.17.12 (v4.17.16 available)
+[09:46:38.622] + @types/node@20.17.1 (v22.13.10 available)
+[09:46:38.622] + @types/react@18.3.12 (v19.0.10 available)
+[09:46:38.622] + autoprefixer@10.4.20 (v10.4.21 available)
+[09:46:38.622] + eslint@8.56.0 (v9.22.0 available)
+[09:46:38.622] + eslint-config-next@14.2.16 (v15.2.2 available)
+[09:46:38.622] + postcss@8.4.47 (v8.5.3 available)
+[09:46:38.622] + postcss-nesting@12.1.5
+[09:46:38.622] + sass@1.80.4 (v1.85.1 available)
+[09:46:38.622] + tailwindcss@3.4.14 (v4.0.14 available)
+[09:46:38.622] + tailwindcss-debug-screens@2.2.1
+[09:46:38.622] + typescript@5.6.3 (v5.8.2 available)
+[09:46:38.622] + @fortawesome/fontawesome-svg-core@6.6.0 (v6.7.2 available)
+[09:46:38.622] + @fortawesome/free-brands-svg-icons@6.6.0 (v6.7.2 available)
+[09:46:38.622] + @fortawesome/free-regular-svg-icons@6.6.0 (v6.7.2 available)
+[09:46:38.622] + @fortawesome/free-solid-svg-icons@6.6.0 (v6.7.2 available)
+[09:46:38.622] + @fortawesome/react-fontawesome@0.2.2
+[09:46:38.623] + animejs@3.2.2
+[09:46:38.623] + clsx@2.1.1
+[09:46:38.623] + framer-motion@11.11.10 (v12.5.0 available)
+[09:46:38.624] + lodash@4.17.21
+[09:46:38.624] + mini-svg-data-uri@1.4.4
+[09:46:38.624] + next@14.2.16 (v15.2.2 available)
+[09:46:38.624] + react@18.3.1
+[09:46:38.624] + react-dom@18.3.1
+[09:46:38.624] + react-wrap-balancer@1.1.1
+[09:46:38.624] + tailwind-merge@2.5.4 (v3.0.2 available)
+[09:46:38.624] 
+[09:46:38.624] 427 packages installed [4.22s]
+[09:46:38.624] Removed: 4
+[09:46:38.683] Detected Next.js version: 14.2.16
+[09:46:38.685] Running "bun run build"
+[09:46:38.798] $ next build
+[09:46:43.280] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[09:46:43.281] This information is used to shape Next.js' roadmap and prioritize features.
+[09:46:43.281] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[09:46:43.281] https://nextjs.org/telemetry
+[09:46:43.282] 
+[09:46:43.335]   ▲ Next.js 14.2.16
+[09:46:43.335] 
+[09:46:43.402]    Creating an optimized production build ...
+[09:46:47.391] Browserslist: caniuse-lite is outdated. Please run:
+[09:46:47.391]   npx update-browserslist-db@latest
+[09:46:47.392]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[09:46:58.336] Browserslist: caniuse-lite is outdated. Please run:
+[09:46:58.337]   npx update-browserslist-db@latest
+[09:46:58.338]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[09:47:00.367]  ✓ Compiled successfully
+[09:47:00.368]    Linting and checking validity of types ...
+[09:47:04.902] 
+[09:47:04.903] ./src/components/common/TypewriterEffect.tsx
+[09:47:04.903] 50:6  Warning: React Hook useEffect has a missing dependency: 'animate'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+[09:47:04.903] 
+[09:47:04.904] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[09:47:06.796] Failed to compile.
+[09:47:06.798] 
+[09:47:06.801] ./src/components/blog/MainSection.tsx:33:21
+[09:47:06.801] Type error: Binding element 'post' implicitly has an 'any' type.
+[09:47:06.802] 
+[09:47:06.802] [0m [90m 31 |[39m ][33m;[39m[0m
+[09:47:06.802] [0m [90m 32 |[39m[0m
+[09:47:06.802] [0m[31m[1m>[22m[39m[90m 33 |[39m [36mconst[39m [33mBlogCard[39m [33m=[39m ({ post }) [33m=>[39m {[0m
+[09:47:06.802] [0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[09:47:06.802] [0m [90m 34 |[39m   [36mreturn[39m ([0m
+[09:47:06.802] [0m [90m 35 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m"bg-white bg-opacity-5 backdrop-blur-sm p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-gray-700"[39m[33m>[39m[0m
+[09:47:06.802] [0m [90m 36 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex flex-col space-y-4"[39m[33m>[39m[0m
+[09:47:06.881] error: script "build" exited with code 1
+[09:47:06.890] Error: Command "bun run build" exited with 1
+[09:47:07.143] 
