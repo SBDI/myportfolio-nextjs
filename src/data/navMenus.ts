@@ -7,7 +7,7 @@ import {
   faAward,
   faLaptopCode,
   faEnvelope,
-  faCreditCard,
+  faNewspaper,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const navMenus: INavItem[] = [
@@ -47,8 +47,8 @@ export const navMenus: INavItem[] = [
     icon: faEnvelope,
   },
   {
-    name: "Payment",
-    link: "/payment",
-    icon: faCreditCard,
+    name: "Blog",
+    link: "/blog",
+    icon: faNewspaper,
   },
 ];
