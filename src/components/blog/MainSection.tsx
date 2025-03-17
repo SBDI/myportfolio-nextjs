@@ -66,10 +66,10 @@ const BlogMainSection = () => {
       id="blog"
     >
       <ConstrainedBox classNames="px-4 py-16 z-20">
-        <SectionTitle
-          title="Blog"
-          subtitle="Sharing insights, tutorials, and thoughts on data science, AI, and machine learning."
-        />
+        <SectionTitle>Blog</SectionTitle>
+        <p className="text-center text-gray-300 mt-4 max-w-2xl mx-auto">
+          Sharing insights, tutorials, and thoughts on data science, AI, and machine learning.
+        </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {blogPosts.map((post) => (
