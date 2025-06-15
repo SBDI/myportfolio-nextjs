@@ -3,46 +3,32 @@ import { IServiceItem } from "@/types";
 const services: IServiceItem[] = [
   {
     id: 1,
-    title: "Data Analytics & Insights",
+    title: "Data Analytics & Business Intelligence",
     icons: [
       "/skills/python.svg",
+      "/skills/sql.svg", // Added SQL as it's fundamental for data
       "/skills/powerbi.svg",
       "/skills/tableau.svg",
-      "/skills/excel.svg",
-      "/skills/r.svg",
+      "/skills/excel.svg", // Kept Excel for broad data handling relevance
     ],
-    shortDescription: "Unlock the story in your data with advanced analytics.",
+    shortDescription: "Transform raw data into actionable insights and strategic decisions.",
     description:
-      "Unlock the story in your data with advanced analytics and professional visualizations. Empower decision-making and drive growth with actionable insights.",
+      "Leverage advanced data analytics, robust ETL processes, and professional visualizations to uncover key trends, optimize operations, and empower data-driven decision-making.",
   },
   {
     id: 2,
-    title: "AI and Machine Learning Solutions",
+    title: "AI & Generative AI Solutions", // Emphasizing Generative AI from CV
     icons: [
-      "/skills/tensorflow.svg",
-      "/skills/pytorch.svg",
-      "/skills/scikit-learn.svg",
       "/skills/python.svg",
       "/skills/huggingface.svg",
+      "/skills/openai.svg", // Assuming you have an OpenAI icon, if not, use a generic AI icon
+      "/skills/langchain.svg", // Assuming you have a LangChain icon
+      "/skills/tensorflow.svg", // Representing Deep Learning frameworks
+      "/skills/scikit-learn.svg", // Representing traditional ML frameworks
     ],
-    shortDescription: "Develop and deploy custom AI and machine learning models.",
+    shortDescription: "Design and deploy intelligent AI and Machine Learning models.",
     description:
-      "Develop and deploy custom AI and machine learning models tailored to your business challenges, delivering intelligent solutions with measurable results.",
-  },
-  {
-    id: 3,
-    title: "Data Engineering & Automation",
-    icons: [
-      "/skills/aws.svg",
-      "/skills/azure.svg",
-      "/skills/docker.svg",
-      "/skills/kubernetes.svg",
-      "/skills/airflow.svg",
-      "/skills/terraform.svg",
-    ],
-    shortDescription: "Streamline your data workflows with scalable pipelines.",
-    description:
-      "Streamline your data workflows by designing scalable pipelines and integrating cloud-based solutions for enhanced efficiency and reliability.",
+      "Develop and integrate custom AI/ML models, including advanced Generative AI and LLM-powered solutions, to automate processes, enhance user experiences, and solve complex business challenges.",
   },
 ];
 

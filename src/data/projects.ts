@@ -45,5 +45,38 @@ const projects: IProjectItem[] = [
     url: "https://example.com/ai-sales-agent",
     tags: ["LLMs", "LangChain", "AI Agents"],
   },
+  {
+    id: "rag-system",
+    title: "RAG System for Document Q&A",
+    description: "Developed a Retrieval-Augmented Generation (RAG) system for document Q&A using LangChain and Hugging Face LLMs, integrating prompt orchestration for enhanced precision.",
+    icon: "/skills/ai.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/mohamedbouabidi/rag-system-demo", // Placeholder
+    url: "https://mohamedbouabidi.com/rag-system-demo", // Placeholder
+    tags: ["RAG", "LangChain", "Hugging Face LLMs", "Prompt Engineering", "NLP"],
+  },
+  {
+    id: "intelligent-retail-assistant",
+    title: "Intelligent Retail Assistant",
+    description: "Developed a retail assistant solution with LangGraph and Llama 3 to help customers navigate products, manage orders, and receive personalized recommendations with human oversight.",
+    icon: "/skills/ai.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/mohamedbouabidi/intelligent-retail-assistant-llm", // Placeholder
+    url: "https://mohamedbouabidi.com/retail-assistant-demo", // Placeholder
+    tags: ["LangGraph", "Llama 3", "AI Agents", "Conversational AI", "Retail Tech"],
+  },
+  {
+    id: "insurance-claims-workflow",
+    title: "Automated Insurance Claims Workflow",
+    description: "Implemented an automated workflow for auto insurance claims using LangChain, Groq LLM, and ChromaDB for policy retrieval, claim parsing, and coverage recommendations.",
+    icon: "/skills/ai.svg",
+    repoType: RepoType.Public,
+    projectType: ProjectType.Personal,
+    githubUrl: "https://github.com/mohamedbouabidi/insurance-claims-workflow-demo", // Placeholder
+    url: "https://mohamedbouabidi.com/insurance-claims-workflow-demo", // Placeholder
+    tags: ["LangChain", "Groq LLM", "ChromaDB", "Workflow Automation", "NLP"],
+  }
 ];
 export default projects;
