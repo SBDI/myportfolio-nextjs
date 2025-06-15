@@ -25,8 +25,8 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
-          <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Data Scientist | GenAI Solutions Specialist
+          <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-2xl mt-4">
+            AI/ML Engineer specializing in developing scalable, production-grade AI-driven solutions using advanced generative techniques. Proven expertise with Large Language Models (LLMs), Prompt Engineering, and Retrieval-Augmented Generation (RAG) methods. Adept at cross-functional collaboration and committed to continuous innovation in AI integration.
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
