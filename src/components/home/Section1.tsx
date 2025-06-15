@@ -16,17 +16,17 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
     >
       <ConstrainedBox classNames="px-4 py-8 pt-16 z-20 items-center justify-center">
         <Column classNames="w-full items-center justify-center">
-          <div className="inline-flex items-center">
+          <div className="flex flex-col items-center">
             <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
               Hi there, I am
             </p>
             <FlipWords
-              words={["Mohamed Bouabidi", "a Data Scientist", "a GenAI Solutions Specialist"]}
+              words={["Mohamed Bouabidi", "Data Scientist", "GenAI Specialist"]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            MIS Engineer| Data Scientist | GenAI Solutions Specialist
+            Data Scientist | GenAI Solutions Specialist
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
